@@ -1,0 +1,132 @@
+* {
+  font-family: 'Quicksand', cursive;
+  background-color: #FFE1B3;
+  color: #B2710B;
+}
+
+h1, h2, h3 {
+  font-family: 'Poiret One', serif;
+  color: #4F80A8;
+}
+
+.Title {
+  border-bottom: 5px double #8E9DA8;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.Navbar {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: space-between;
+  width: 250px;
+  padding: 10px;
+  background-color: #FFA820;
+  color: #FFE1B3;
+  border: 3px solid #8E9DA8;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.navlink {
+  background-color: #FFA820;
+  color: #FFE1B3;
+  display: flex;
+  align-self: center;
+}
+
+.navlink:hover {
+  color: #4F80A8;
+}
+
+.MainLayout {
+  display:flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.Sidebar {
+  width: 250px;
+  margin: 20px 5px 5px 5px;
+  max-width: 35%;
+  max-height: 250px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: space-around;
+  background-color: #FFA820;
+  background-image: linear-gradient(#B2710B, #4F80A8);
+  color: #FFE1B3;
+  border-radius: 25px;
+}
+
+.SidebarContainer {
+  display: flex;
+  align-content: space-around;
+  padding: 0px 5px 15px 5px;
+  flex-flow: column;
+  background-color: #FFA820;
+  border-radius: 25px;
+}
+
+.SidebarHeader {
+  margin-bottom: 15px;
+  background-color: #FFA820;
+  color: #FFE1B3;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.SideNav {
+  background-color: #FFA820;
+}
+
+.Container {
+  margin: 0px;
+  background-color: #FFA820;
+  color: #FFE1B3;
+  list-style-type: none;
+}
+
+
+.SidebarFooter {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 15px 15px 0px 15px;
+  background-color: #FFA820;
+  color: #FFE1B3;
+}
+
+.Content {
+  margin: 20px 0px 0px 20px;
+  max-width: 65%;
+}
+
+.drill {
+  display: flex;
+}
+
+video {
+  float: right;
+  padding: 0px 20px 20px 20px;
+}
+
+.PhotoContainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.conorpic {
+  max-width: 150px;
+  max-height: 200px;
+  border-radius: 60px;
+  border: 4px solid #FFA820;
+}
